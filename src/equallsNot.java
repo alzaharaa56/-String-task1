@@ -13,6 +13,13 @@ public class equallsNot {
                 isCount++;
             }
         }
+        for (int i = 0; i <= text.length() - 3; i++) {
+            if (text.substring(i, i + 3).equals("not")) {
+                notCount++;
+            }
+        }
 
+        return isCount == notCount;
+    }
 
 }
