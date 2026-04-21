@@ -1,4 +1,4 @@
-public class countYZ {
+public class countYZ{
     public static void main(String[] args) {
         System.out.println(countYZ("fezday"));
 
