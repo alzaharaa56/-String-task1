@@ -26,7 +26,4 @@ public class equallsNot {
 
         return isCount == notCount;
     }
-
-    }
-
 }
