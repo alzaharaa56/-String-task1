@@ -1,5 +1,6 @@
 public class countTriple {
-    public  static void mian (String[] args){
+    public  static void main (String[] args){
+
         System.out.println(countTriple ("abcXXXabc"));
 
     }
@@ -12,10 +13,7 @@ public class countTriple {
         for (int i= 0; i< x-2 ; i++){
             char tmp = str.charAt(i);
         if (tmp ==str.charAt(i+1) && tmp == str.charAt(i+2))
-        count++;
-
-
-
+            count++;
         }
 
         return count;
